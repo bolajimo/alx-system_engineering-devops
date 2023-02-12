@@ -41,5 +41,6 @@ frontend load_balancer
 
 backend web_servers
     balance roundrobin
-    server web-01 34.73.133.125:80 check
-    server web-02 52.201.252.232:80 check
+    server web-01 54.157.150.41:80 check
+    server web-02 52.207.74.144:80 check
+ 
